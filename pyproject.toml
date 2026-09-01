@@ -6,9 +6,3 @@ requires-python = ">=3.8"
 
 [project.scripts]
 shokry = "main:main"
-
-[tool.flet]
-org = "com.shokry"
-project = "برنامج شكري"
-description = "تطبيق تحميل فيديوهات يوتيوب"
-product_name = "برنامج شكري"

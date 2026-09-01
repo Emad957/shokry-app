@@ -21,7 +21,7 @@ jobs:
           pip install flet flet-cli yt-dlp
 
       - name: Build APK
-        run: flet build apk --add-assets assets
+        run: flet build apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4

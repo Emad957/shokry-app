@@ -25,7 +25,7 @@ jobs:
           pip install flet flet-cli yt-dlp "binaryornot<0.5"
 
       - name: Build APK
-        run: flet build apk --yes -v
+        run: flet build apk --yes --module-name main -v
 
       - name: Upload APK
         uses: actions/upload-artifact@v4

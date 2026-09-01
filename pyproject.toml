@@ -1,0 +1,14 @@
+[project]
+name = "برنامج شكري"
+version = "1.0.0"
+description = "تطبيق تحميل فيديوهات يوتيوب"
+requires-python = ">=3.8"
+
+[project.scripts]
+shokry = "main:main"
+
+[tool.flet]
+org = "com.shokry"
+project = "برنامج شكري"
+description = "تطبيق تحميل فيديوهات يوتيوب"
+product_name = "برنامج شكري"
